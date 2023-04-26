@@ -1,0 +1,35 @@
+.nav-search,
+.nav-user,
+.nav-location-sidebar,
+.nav-search-sidebar {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.bmw-logo,
+.bmw-logo-sidebar {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--nav-padding-top) var(--nav-padding-left);
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav-search {
+  position: absolute;
+  top: 2.5rem;
+  right: calc(var(--bar-width) +var(--nav-padding-left) + 3rem);
+}
+
+.nav-user {
+  position: absolute;
+  top: 2.5rem;
+  right: calc(var(--bar-width) +var(--nav-padding-left) + 7.6rem);
+}

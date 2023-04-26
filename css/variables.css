@@ -1,0 +1,26 @@
+:root {
+  /* -------------------------------------------- */
+  /*             Hamburger Menu Icon              */
+  /* -------------------------------------------- */
+  --bar-width: 2rem;
+  --bar-height: 0.3rem;
+  --hamburger-gap: 0.3rem;
+  --hamburger-margin: 2rem;
+  --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
+  --animation-timing: 0.2s ease-in-out;
+  /* -------------------------------------------- */
+  /*                      Nav                     */
+  /* -------------------------------------------- */
+  --nav-padding-top: 1.5rem;
+  --nav-padding-left: 2.5rem;
+  /* -------------------------------------------- */
+  /*                    Colors                    */
+  /* -------------------------------------------- */
+  --white-text: #fff;
+  --black-text: #000;
+  --grey-text: #4d4d4d;
+  --footer-background: #f6f6f6;
+  --foreground: #6f6f6f;
+  --background: #fff;
+  --cta-background: #1c69d4;
+}
